@@ -475,7 +475,7 @@
                                             </button>
                                             <button 
                                                 onClick={() => speak(selectedLetter.exampleUrdu)}
-                                                className="py-3 px-4 bg-slate-900 text-white rounded-xl font-bold flex items-center justify-center gap-2 shadow-md hover:bg-slate-800 active:scale-95"
+                                                className="py-3 px-4 bg-slate-900 text-white rounded-xl font-bold flex items-center justify-center gap-2 shadow-md hover:bg-slate-800 active:scale-95 transition-all text-xs"
                                             >
                                                 Hear Word
                                             </button>
@@ -491,7 +491,7 @@
                                             setSelectedLetter(URDU_ALPHABET[prevIdx]);
                                             speak(URDU_ALPHABET[prevIdx].char);
                                         }}
-                                        className="flex-1 bg-white px-6 py-4 rounded-2xl shadow-md text-slate-600 hover:text-emerald-600 transition-all flex items-center justify-center gap-2 border"
+                                        className="flex-1 bg-white px-6 py-4 rounded-2xl shadow-md text-slate-600 hover:text-emerald-600 transition-all flex items-center justify-center gap-2 border border-slate-100 font-bold active:scale-95"
                                     >
                                         Prev
                                     </button>
